@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env files (API keys live here, never commit them)
+.env
+.env*.local
+
+# local database
+*.db
+*.db-journal
+
+# misc
+.DS_Store
+*.log
+next-env.d.ts
+*.tsbuildinfo
